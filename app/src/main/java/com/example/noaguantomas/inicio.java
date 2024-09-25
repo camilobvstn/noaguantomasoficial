@@ -50,7 +50,7 @@ public class inicio extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_inicio, container, false);
 
-        // Encuentra el TextView con el ID acategorias
+
         TextView acategorias = view.findViewById(R.id.acategorias);
         acategorias.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,7 +60,7 @@ public class inicio extends Fragment {
             }
         });
 
-        // Encuentra el ConstraintLayout con el ID avisos
+
         View avisos = view.findViewById(R.id.avisos);
         avisos.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,7 +70,7 @@ public class inicio extends Fragment {
             }
         });
 
-        // Encuentra el ConstraintLayout con el ID aviso1 y abre Publicaciones
+
         View aviso1 = view.findViewById(R.id.aviso1);
         aviso1.setOnClickListener(new View.OnClickListener() {
             @Override

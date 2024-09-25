@@ -58,13 +58,13 @@ public class mensajes extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         View view = inflater.inflate(R.layout.fragment_mensajes, container, false);
 
-        // Encuentra el ConstraintLayout con el ID mensajede
+
         View mensajede = view.findViewById(R.id.mensajede);
 
-        // Establece un OnClickListener para abrir la actividad chat
+
         mensajede.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,7 +73,7 @@ public class mensajes extends Fragment {
             }
         });
 
-        // Otras configuraciones
+
         ImageView BtnPerfil = view.findViewById(R.id.BtnPerfil);
         BtnPerfil.setOnClickListener(new View.OnClickListener() {
             @Override

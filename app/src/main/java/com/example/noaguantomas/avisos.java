@@ -25,10 +25,10 @@ public class avisos extends AppCompatActivity {
             return insets;
         });
 
-        // Encuentra el botón con el ID verpubli
+
         Button verpubli = findViewById(R.id.verpubli);
 
-        // Configura el OnClickListener para abrir la actividad Publicaciones
+
         verpubli.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
